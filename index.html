@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>weather</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <div  class="container">
+        <div class="app">
+           <form>
+               <div class="search ">
+                   <i class="fa-solid fa-magnifying-glass"> </i>
+                   <input class="" type="text" placeholder="Enter city name" />
+                   <button> search </button>
+
+               </div>
+               
+                   <div class="cti">
+                       
+                       <img class="weather_icon" src="https://openweathermap.org/img/wn/10d@2x.png" />
+                       <div class="city">
+                           <p class="city_name"> Gujranwala</p>
+
+                       </div>
+                       <p class="temp_value">
+                           26<sup>o</sup>C
+
+                       </p>
+                       <p class="feels_like"> </p>
+
+                   </div>
+              
+               
+
+               <div class="hum_ws">
+                   <div class="top1">
+                       <p> Humidity </p>
+                       <div class="hum">
+                           <img src="humidity.png" height="25px" />
+                           <p>45% </p>
+                       </div>
+                   </div>
+                  
+
+                   <div class="top2">
+                       <p> Wind speed</p>
+                       <div class="ws">
+                           <img src="wind.png" height="25px" />
+                           <p>4km/h </p>
+                       </div>
+                   </div>
+                  
+               </div>
+               
+              
+               
+           </form>
+        </div>
+    </div>
+
+    <script src="app.js"> </script>
+</body>
+</html>

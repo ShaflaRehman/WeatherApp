@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    background-color: #1b263b;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+
+.container {
+    padding:1rem;
+    margin:0rem;
+    display:flex;
+    align-items:center;
+    border:none;
+    border-radius:2rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,148,122,1) 100%, rgba(10,126,97,0.5215511375448617) 100%, rgba(0,212,255,1) 100%);
+    width:55vh;
+    min-height:40vh;
+}
+app {
+    width: 100%;
+}
+.search {
+    width: 100%;
+    display: flex;
+    
+}
+form {
+    width: 100%;
+}
+.search
+{
+    display:flex;
+    align-items:center;
+    font-family:Courier New, Courier, monospace;
+    
+}
+
+    .search input {
+        height: 2rem;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        padding-left: 0.75rem;
+        margin-left: 1rem;
+        margin: 1rem 0rem 1rem 0rem;
+        border-radius: 1rem;
+        font-family: Courier New, Courier, monospace;
+    }
+    .search button {
+        height: 2.2rem;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        width: 14vh;
+        font-family: Courier New, Courier, monospace;
+        margin: 1rem 0rem 1rem 0.75rem;
+        border-radius: 1rem;
+        color:1px solid black;
+    }
+    
+   
+    .search i {
+        margin: 1rem 0.5rem 1rem 0rem;
+       
+    }
+    button:hover{
+        background-color:grey;
+    }
+
+
+    .cti
+    { 
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:0px;
+       
+      
+    }
+
+ .city_name {
+     font-size: 6vh;
+     margin: 0rem 0rem 0rem 0rem;
+     font-family: 'Times New Roman', Times, serif
+ }
+        .cti img {
+            margin: 0rem 0rem 0rem 0rem;
+            padding:0px;
+            height:5rem;
+        }
+        .temp_value {
+            font-size: 6vh;
+            margin: 0rem 0rem 0rem 0rem;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+.hum_ws{
+    display:flex;
+    justify-content:space-between;
+    margin-top:1rem;
+    padding:1rem 0rem 0rem 0rem;
+}
+
+.hum{
+    display:flex;
+    align-items:center;
+    margin-top:0rem;
+    padding:1rem 1rem 1rem 0rem;
+}
+.ws {
+    display: flex;
+    align-items: center;
+    margin-top: 0rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.hum_ws p{
+    padding:0rem;
+    margin:0rem;
+}
+
+.top1 {
+    padding: 0rem 0rem 0rem 2rem;
+}
+.top2 {
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.hum img {
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+
+.ws img {
+    margin: 0rem 0.5rem 0rem 0rem;
+}
+
